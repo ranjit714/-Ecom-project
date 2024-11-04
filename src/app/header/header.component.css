@@ -1,0 +1,43 @@
+.nav{
+    display:flex;                        /*it used separate nav*/
+    justify-content: space-between;    /* it used Space nav*/
+}
+.nav h1{
+    color: blueviolet;
+    margin: 0;
+    font-size: 31px;
+}
+.nav ul{
+    display: inline-flex;              /*nav covert in Horizetal line*/
+    list-style-type: none;              /*Remove . line*/
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.nav li a{
+    text-decoration: none;      /*Remove underline*/
+    color: blueviolet;
+}
+.nav .nav-search{
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav .nav-search input{
+    flex: 1;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 35Px;
+    border-right: 0px;
+}
+.nav .nav-search button{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 39px;
+    border-left: 0px;
+}

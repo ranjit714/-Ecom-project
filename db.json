@@ -1,0 +1,16 @@
+{
+  "seller": [
+    {
+      "id":101,
+      "name":"Ranjit Magar",
+      "email":"ranjitmagar2009@gmail.com",
+      "password":"ranjit@1234"
+    },
+    {
+      "id":102,
+      "name":"Ranjit Magar",
+      "email":"ranjitmagar2009@gmail.com",
+      "password":"ranjit@1234"
+    }
+  ]
+}
